@@ -1,0 +1,22 @@
+.title_page2 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #141414;
+    color: #fff;
+  }
+  
+  .title_page2 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title_page2 p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .title_page2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  

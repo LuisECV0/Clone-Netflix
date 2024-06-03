@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header_logo {
+  height: 45px;
+  width: 140px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_languege {
+  background-color: #212020;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);;
+  margin-right: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.header_login {
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-color: rgba(0, 0, 0, 0);
+  background: rgb(229, 9, 20);
+}
+
+.header_login:hover {
+  background-color: darkred;
+}

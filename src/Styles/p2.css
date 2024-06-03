@@ -1,0 +1,23 @@
+.tittle_page3 {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
+  }
+  
+  .tittle_page3 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tittle_page3 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tittle_page3 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  

@@ -1,0 +1,34 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer_contact {
+    margin-bottom: 1rem;
+  }
+  
+  .footer_links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer_links a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  
+  .footer_links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer_country {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+  
