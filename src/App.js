@@ -6,7 +6,7 @@ import P1 from './Components/p1';
 import P2 from './Components/p2';
 import P3 from './Components/p3';
 import P4 from './Components/p4';
-
+import P5 from './Components/p5';
 function App() {
 
   return (
@@ -30,6 +30,9 @@ function App() {
       </div>
       <div className='page_dos'>
         <P4 />
+      </div>
+      <div>
+        <P5 />
       </div>
       
 

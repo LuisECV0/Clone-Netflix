@@ -1,12 +1,12 @@
-@font-face {
+/*@font-face {
   font-family: 'Bebas Neue';
   src: url('./Sources/BebasNeue-Regular.ttf') format('truetype');
-}
+}*/
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Bebas Neue', Arial, sans-serif;
+  /*font-family: 'Bebas Neue', Arial, sans-serif;*/
   height: 100%;
   scroll-behavior: smooth;
 }
@@ -37,7 +37,6 @@ body {
 }
 
 .header, .banner, .footer {
-
   padding: 1rem;
   color: white;
 }

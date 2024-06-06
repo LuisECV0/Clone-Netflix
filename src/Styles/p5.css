@@ -1,0 +1,102 @@
+.p5-page {
+    background-color: #000000;
+}
+.title-page5 {   
+ color: #fff;
+ text-align: center;
+ border-top-width: 1px;
+ border-top-style: solid;
+ border-top-color: #000000;
+ border-right-width: 1px;
+ border-right-style: solid;
+ border-right-color: #000000;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: #000000;
+ border-left-width: 1px;
+ border-left-style: solid;
+ border-left-color: #000000;
+ border-image-outset: 0;
+ border-image-repeat: stretch;
+ border-image-slice: 100%;
+ border-image-source: none;
+ border-image-width: 1;
+}
+.faq {
+    background-color: rgb(69, 69, 69);
+    color: #fff;
+    border: 1px solid #000000;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .faq-question {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .faq-toggle {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: max-height 1s ease, padding 1s ease;
+  }
+  
+  .faq-answer p {
+    margin: 10px 0;
+  }
+  
+
+  .email-signup {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .email-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+    outline: none;
+  }
+  
+  .email-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .email-button:hover {
+    background-color: #f40612;
+  }
