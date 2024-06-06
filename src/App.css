@@ -7,10 +7,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Bebas Neue', Arial, sans-serif;
-  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/825ef47b-5868-4bc4-942a-7053fef06680/PE-es-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 100%;
   scroll-behavior: smooth;
 }
@@ -21,14 +17,20 @@ body {
   height: 100vh;
   overflow-y: auto;
   scroll-snap-type: y mandatory; 
+  /*background-color: rgba(0, 0, 0, 0.7);*/
 }
 
+
 .page_cero {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/825ef47b-5868-4bc4-942a-7053fef06680/PE-es-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg');
 }
+.TR {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
 .page_cero, .page_uno {
   min-height: 100vh;
-  scroll-snap-align: start; 
 }
 .footer {
   min-height: 70vh;
