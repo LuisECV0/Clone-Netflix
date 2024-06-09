@@ -3,24 +3,8 @@
 }
 .title-page5 {   
  color: #fff;
+ border: 1px solid #000000;
  text-align: center;
- border-top-width: 1px;
- border-top-style: solid;
- border-top-color: #000000;
- border-right-width: 1px;
- border-right-style: solid;
- border-right-color: #000000;
- border-bottom-width: 1px;
- border-bottom-style: solid;
- border-bottom-color: #000000;
- border-left-width: 1px;
- border-left-style: solid;
- border-left-color: #000000;
- border-image-outset: 0;
- border-image-repeat: stretch;
- border-image-slice: 100%;
- border-image-source: none;
- border-image-width: 1;
 }
 .faq {
     background-color: rgb(69, 69, 69);
